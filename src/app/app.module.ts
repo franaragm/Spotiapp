@@ -10,6 +10,7 @@ import { SearchComponent } from './components/search/search.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { DemoComponent } from './components/demo/demo.component';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
 
 // Importar Rutas
@@ -26,7 +27,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     ArtistComponent,
     NavbarComponent,
     DemoComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
