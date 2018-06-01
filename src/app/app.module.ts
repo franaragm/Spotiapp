@@ -15,8 +15,8 @@ import { DemoComponent } from './components/demo/demo.component';
 // Importar Rutas
 import {ROUTES} from './app.routes';
 
-
-
+// Pipes
+import { NoimagePipe } from './pipes/noimage.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import {ROUTES} from './app.routes';
     SearchComponent,
     ArtistComponent,
     NavbarComponent,
-    DemoComponent
+    DemoComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
